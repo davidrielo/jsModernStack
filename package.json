@@ -1,0 +1,11 @@
+{
+  "name": "jsModernStack",
+  "version": "1.0.0",
+  "description": "JavaScript Stack from Scratch - Step-by-step tutorial to build a modern JavaScript stack",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+  		"start": "node ."
+	}
+}
+
