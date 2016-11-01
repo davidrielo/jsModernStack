@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 // commonjs way
 // const Cat = require('./cat');
 
