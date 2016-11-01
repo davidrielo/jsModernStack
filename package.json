@@ -5,7 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tutorial-test": "gulp main"
   },
   "babel": {
     "presets": [
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
   }

@@ -34,7 +34,7 @@ gulp.task('watch', () => {
 
 gulp.task('default', ['watch', 'main']);
 
- /* 
- * You might be wondering how come we're using some ES6 code in this Gulp file, since it doesn't get transpiled into ES5 by Babel. 
- * This is because we're using a version of Node that supports ES6 features out of the box (make sure you are running Node > 6.5.0 by running node -v).
- * /
+  
+ // You might be wondering how come we're using some ES6 code in this Gulp file, since it doesn't get transpiled into ES5 by Babel. 
+ // This is because we're using a version of Node that supports ES6 features out of the box (make sure you are running Node > 6.5.0 by running node -v).
+  

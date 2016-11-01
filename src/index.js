@@ -1,4 +1,8 @@
-const str = 'ES6';
+const Cat = require('./cat');
 
-// template strings are created using backquotes
-console.log(`Hello ${str}`);
+const fluffy = new Cat('Fluffy');
+const aCat = new Cat();
+
+
+console.log(fluffy.meow());
+console.log(aCat.meow());
