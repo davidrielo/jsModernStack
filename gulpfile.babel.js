@@ -1,7 +1,15 @@
-const gulp = require('gulp');
+// commonjs
+/*const gulp = require('gulp');
 const babel = require('gulp-babel');
 const del = require('del');
 const exec = require('child_process').exec;
+*/
+
+// ES6 module thanks to babel
+import gulp from 'gulp';
+import babel from 'gulp-babel';
+import del from 'del';
+import { exec } from 'child_process';
 
 const paths = {
   allSrcJs: 'src/**/*.js',
@@ -36,5 +44,5 @@ gulp.task('default', ['watch', 'main']);
 
   
  // You might be wondering how come we're using some ES6 code in this Gulp file, since it doesn't get transpiled into ES5 by Babel. 
- // This is because we're using a version of Node that supports ES6 features out of the box (make sure you are running Node > 6.5.0 by running node -v).
+// This is because we're using a version of Node that supports ES6 features out of the box (make sure you are running Node > 6.5.0 by running node -v).
   
